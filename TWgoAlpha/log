@@ -1848,3 +1848,19 @@ Not Found: /favicon.ico
 [13/Jun/2017 18:06:36] "GET /static/fonts/roboto/Roboto-Thin.woff HTTP/1.1" 404 1710
 [13/Jun/2017 18:06:36] "GET /static/fonts/roboto/Roboto-Bold.woff2 HTTP/1.1" 404 1713
 [13/Jun/2017 18:06:36] "GET /static/fonts/roboto/Roboto-Bold.woff HTTP/1.1" 404 1710
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 13 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+June 12, 2017 - 22:11:01
+Django version 1.11.2, using settings 'TWgoAlpha.settings'
+Starting development server at http://0:13000/
+Quit the server with CONTROL-C.
+[13/Jun/2017 18:59:07] "GET / HTTP/1.1" 200 2213
+[13/Jun/2017 18:59:07] "GET /static/css/materialize.css HTTP/1.1" 304 0
+[13/Jun/2017 18:59:07] "GET /static/js/init.js HTTP/1.1" 200 170
+[13/Jun/2017 18:59:07] "GET /static/fonts/roboto/Roboto-Medium.woff2 HTTP/1.1" 200 65412
+[13/Jun/2017 18:59:07] "GET /static/js/materialize.js HTTP/1.1" 200 326279
+[13/Jun/2017 18:59:07] "GET /static/fonts/roboto/Roboto-Regular.woff2 HTTP/1.1" 200 64832
